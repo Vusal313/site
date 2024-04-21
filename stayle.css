@@ -1,0 +1,784 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bgyasil: #53d153;
+    --bgag: #f3f3f3;
+}
+
+
+
+header {
+    background-image: url(./image/sekil1.jpg);
+    background-size: cover;
+    height: 659px;
+    box-shadow: 0 100px 200px inset #333;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0 11px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nautilus Pompilius";
+    text-align: center;
+    margin-right: 120px;
+}
+
+.search input {
+    padding: 7px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.centerDiv {
+    text-align: center;
+}
+
+.centerDiv h1 {
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.centerDiv button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #53d153;
+    color: #fff;
+
+}
+
+.bottomDiv button {
+    background-color: #9492926c;
+    padding: 7px;
+    border: 0;
+    border-radius: 17px;
+}
+
+/* section 1 */
+.section1 {
+    background-color: var(--bgag);
+    width: 100%;
+    height: 577px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.umumudiv {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.umumudiv div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.umumudiv i {
+
+    color: var(--bgyasil);
+    font-size: 9em;
+    padding: 30px;
+    margin: 30px;
+    background-color: #d5ebd5;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.umumudiv h1 {
+
+    color: #8f8d8d;
+}
+
+.umumudiv p {
+
+    height: 89px;
+    font-size: 15px;
+    color: #828181;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    color: #8f8d8d;
+    margin: 20px;
+    width: 250px;
+
+
+}
+
+.basliq {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.basliq h1 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #828181;
+    font-weight: 300;
+    font-family: "Montserrat";
+
+}
+
+.basliq p {
+    color: #b7b3b3;
+    font-family: "Myriad Pro";
+
+}
+
+.basliq hr {
+    width: 40px;
+    background-color: #444444;
+    border: 1px solid #444444;
+    display: flex;
+    align-self: center;
+}
+
+.section1 button {
+    background-color: var(--bgyasil);
+    color: var(--bgag);
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    width: 100px;
+    padding: 5px;
+
+}
+
+/* .section2 */
+.section2 {
+    background-color: var(--bgyasil);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section2 img {
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+}
+
+.divbasliq1 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #828181;
+    font-weight: 300;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divbasliq1 hr {
+    width: 40px;
+    background-color: #444444;
+    border: 1px solid #444444;
+
+}
+
+.buttons button {
+    padding: 5px 7px;
+    border: 1px solid #666;
+}
+
+.buttons button:hover {
+    background: #037003;
+    color: white;
+}
+
+.active {
+    background-color: #037003;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.bt1 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bt3 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bt4 {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #037003;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    text-align: center;
+    border: 1px solid #037003;
+    border-radius: 30px;
+
+
+}
+
+/* .section3 */
+.section3 {
+    background-color: var(--bgag);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3 img {
+    width: 30px;
+    margin: 0 5px 0 0;
+
+}
+
+.pdiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pdiv2 {
+    width: 50%;
+    color: #444444;
+    font-family: "Proxima Nova";
+
+}
+
+.divbasliq2 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #828181;
+    font-weight: 300;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divbasliq2 hr {
+    width: 40px;
+    background-color: #444444;
+    border: 1px solid #444444;
+    display: flex;
+    align-self: center;
+}
+
+.ox1,
+.ox2 {
+    color: #cfcece;
+}
+
+.ceo {
+    color: #cccccc;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+
+.altyazi {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* .section4 */
+.section4 {
+    background-color: #a7a7a7;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.divbasliq3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section4 h1 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #828181;
+    font-weight: 300;
+    font-family: "Montserrat";
+}
+
+.section4 hr {
+    width: 40px;
+    background-color: #444444;
+    border: 1px solid #444444;
+
+}
+
+.section4 p {
+    color: #909090;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+
+.section4 img {
+    width: 90px;
+}
+
+.ikondiv1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ikondiv2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section4 button {
+    border-radius: 30px;
+    font-size: 22px;
+    background-color: #DDDCDC;
+    color: #a59d9d;
+    font-family: "Proxima Nova";
+    border: 0;
+    width: 120px;
+}
+
+.button313 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .section5 */
+.section5 {
+    background-color: var(--bgyasil);
+    width: 100%;
+    height: 570px;
+}
+
+.divimg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divimg p {
+    color: var(--bgag);
+}
+
+.divimg .iii {
+    background-color: var(--bgag);
+    color: blue;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0 50px 0;
+}
+
+.iii .fas {
+    color: red;
+}
+
+.employecard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xett {
+    width: 3px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+
+}
+
+.divimg img {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 40px;
+}
+
+.divbasliq7 {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.divbasliq7 h1 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #207b20;
+    font-weight: 300;
+    font-family: "Montserrat";
+
+}
+
+.divbasliq7 hr {
+    width: 40px;
+    background-color: #444444;
+    border: 1px solid #444444;
+
+}
+
+.divbasliq7 p {
+    color: #2b9b2b;
+    font-weight: 300;
+    font-family: "Open Sans";
+
+}
+
+.bt28 {
+    background-color: #037003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.bt28 button {
+    width: 200px;
+    height: 40px;
+    background-color: var(--bgyasil);
+    color: #ffffff;
+    border-radius: 30px;
+    border: 0;
+    font-size: 19px;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+
+.section6 {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section6 img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 371px;
+    justify-content: space-between;
+}
+
+.left h1 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #dddddd;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin-top: 30px;
+
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left hr {
+    width: 30px;
+    color: #cccccc;
+    margin-top: 2px;
+
+}
+
+.left p {
+    width: 316px;
+    font-size: 16px;
+    color: #cccccc;
+    font-family: "Proxima Nova";
+    text-align: center;
+
+}
+
+.iiii {
+    background-color: var(--bgag);
+    color: blue;
+    width: 80px;
+    border-radius: 30px;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iiii .fas {
+    color: red;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center h1 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #dddddd;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin-top: 30px;
+}
+
+.center hr {
+    width: 30px;
+    color: #cccccc;
+    margin-top: 2px;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+
+.Lorem {
+    color: #cccccc;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin: 5px;
+}
+
+.p {
+    font-size: 12px;
+    background-color: var(--bgyasil);
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    display: inline;
+    padding: 4px;
+    margin: 5px;
+}
+
+.p1 {
+    font-size: 12px;
+    background-color: #FFBA00;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    display: inline;
+    padding: 4px;
+    margin: 5px;
+}
+
+.p2 {
+    font-size: 12px;
+    background-color: #089CEA;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    display: inline;
+    padding: 4px;
+    margin: 5px;
+}
+
+.p3 {
+    font-size: 12px;
+    background-color: #F34C03;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    display: inline;
+    padding: 4px;
+    margin: 5px;
+}
+
+.p4 {
+    font-size: 12px;
+    background-color: #FFBA00;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    display: inline;
+    padding: 4px;
+    margin: 5px;
+}
+
+.son {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right h1 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #dddddd;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin-top: 30px;
+}
+
+.right hr {
+    width: 30px;
+    color: #cccccc;
+    margin-top: 2px;
+
+}
+
+.right p {
+    font-size: 14px;
+    color: #cccccc;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+form {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 30px 0;
+}
+
+form input {
+    background-color: #434343;
+    color: #777777;
+    font-family: "Proxima Nova";
+    padding: 10px;
+    border: 0;
+    margin: 1.5px;
+}
+
+#mesage {
+    background-color: #434343;
+    padding-left: 10px;
+    font-family: "Proxima Nova";
+    margin-top: 1.5px;
+    border: 0;
+}
+
+form button {
+    background-color: var(--bgyasil);
+    border: 0;
+    margin-top: 1.5px;
+    padding: 7px 0;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    border-radius: 0 0 5px 5px;
+}
+
+.int {
+    border-radius: 5px 5px 0 0;
+}
+
+footer {
+    background-color: #212121;
+
+
+}
+
+footer h1 {
+    letter-spacing: 3px;
+    color: #101010;
+    font-weight: 300;
+    font-family: "Montserrat";
+    margin-top: 30px;
+}
+
+footer hr {
+    width: 30px;
+    border: 1px solid black;
+    margin-top: 3px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sekiller {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.sekiller img {
+    width: 100px;
+    margin: 0 30px;
+}
+
+.made {
+    background-color: #101010;
+    color: #ffffff;
+    font-family: "Proxima Nova";
+    text-align: center;
+    padding:10px 0;
+}
